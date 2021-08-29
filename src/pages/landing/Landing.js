@@ -34,7 +34,7 @@ function Registeration(){
     }
 
     return(            
-        <div id="landing">
+        <div id="registeration">
             <div className="header">
                 <h1 className="display-2">COVID-19 Questionnaire</h1>
                 <p><b>This screening cannot diagnose you.</b> If you have medical questions, consult a health care provider. Follow the direction of your local public health unit over the advice in this tool.</p>
@@ -89,7 +89,6 @@ function Questions(){
     }
 
     function check(){
-        console.log(respYes);
         if(respYes === 0){
             return(
                 <Accepted/>
@@ -101,7 +100,6 @@ function Questions(){
         }
     }
 
-    console.log(count);
     if(count < totQ){
         return(
             <div id="questions">
@@ -170,7 +168,7 @@ export default function Landing(){
         localStorage.setItem("qcount",0);
         return(
             <>
-                <Container id="landing">
+                <Container id="landing" fluid="sm">
                     <Questions/>
                     <input className="extScrn btn btn-secondary" type="submit" value="Exit Screening" onClick={()=>handleClearLS()}/>
                 </Container>

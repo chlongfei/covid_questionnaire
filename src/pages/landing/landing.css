@@ -6,10 +6,15 @@
     margin-bottom: 0.5%;
 }
 
+#landing .extScrn{
+    width: auto;
+}
+
 #landing input[type="submit"]:disabled{
     background: grey;
     border:none;
 }
+
 
 #questions .question{
     font-weight: bold;
@@ -27,12 +32,12 @@
     font-weight: bold;
 }
 #result{
-    font-size: 400%;
+    font-size: 300%;
     font-weight: bolder;
 }
 
 #result svg{
-    height: 50vh;
+    height: 40vh;
     width: auto;
 }
 
@@ -47,4 +52,16 @@
 #result .disclaimers{
     font-size: large;
     font-weight: normal;
+}
+
+@media only screen and (max-width: 600px){
+    #registeration input{
+        width: 80%;    
+    }    
+    #result{
+        font-size: 200%;
+    }
+    #result svg{
+        height: 20vh;
+    }
 }
