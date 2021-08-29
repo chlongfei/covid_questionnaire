@@ -1,0 +1,59 @@
+{
+    "Questions":[
+        {
+            "type":"yn",
+            "question":"Are you currently experiencing any FEVER and/or CHILLS?",
+            "hint":"Temperature of 37.8 degrees Celcius (100 degrees Fahrenheit) or higher",
+            "options":["YES", "NO"]
+        },
+        {
+            "type":"yn",
+            "question":"Are you currently experiencing any COUGH or BARKING COUGH (croup)?",
+            "hint":"Continuous, more than usual, making a whistling noise when breathing (not related to asthma, post-infectious reactive airways, COPD, or other known causes or conditions you already have)",
+            "options":["YES", "NO"]
+        },
+        {
+            "type":"yn",
+            "question":"Are you currently experiencing any SHORTNESS OF BREATH?",
+            "hint":"Out of breath, unable to breathe deeply (not related to asthma or other known causes or conditions you already have)",
+            "options":["YES", "NO"]
+        },
+        {
+            "type":"yn",
+            "question":"Are you currently experiencing any DECREASE or LOSS OF TASTE OR SMELL?",
+            "hint":"Not related to seasonal allergies, neurological disorders, or other known causes or conditions you already have",
+            "options":["YES", "NO"]
+        },
+        {
+            "type":"yn",
+            "question":"Are you currently experiencing any MUSCLE ACHES or JOINT PAIN?",
+            "hint":"Unusual, long-lasting (not related to getting a COVID-19 vaccine in the last 48 hours, a sudden injury, fibromyalgia, or other known causes or conditions you already have)",
+            "options":["YES", "NO"]
+        },
+        {
+            "type":"yn",
+            "question":"Are you currently experiencing any EXTEREME TIREDNESS?",
+            "hint":"Unusual, fatigue, lack of energy (not related to getting a COVID-19 vaccine in the last 48 hours, depression, insomnia, thyroid dysfunction, or other known causes or conditions you already have)",
+            "options":["YES", "NO"]
+        },
+        {
+            "type":"yn",
+            "question":"In the last 14 days, have you travelled outside of Canada and been told to quarantine (per the federal quarantine requirements)?",
+            "hint":"",
+            "options":["YES", "NO"]
+        },
+        {
+            "type":"yn",
+            "question":"Has a doctor, health care provider, or public health unit told you that you should currently be isolating (staying at home)?",
+            "hint":"This can be because of an outbreak or contact tracing.",
+            "options":["YES", "NO"]
+        },
+        {
+            "type":"yn",
+            "question":"In the last 10 days, have you tested positive on a rapid antigen test or home-based self-testing kit?",
+            "hint":"If you have since tested negative on a lab-based PCR test, select No.",
+            "options":["YES", "NO"]
+        }
+
+    ]
+}

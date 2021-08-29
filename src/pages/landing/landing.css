@@ -1,0 +1,50 @@
+#landing{
+    align-content: center;
+}
+#landing input{
+    width: 20%;
+    margin-bottom: 0.5%;
+}
+
+#landing input[type="submit"]:disabled{
+    background: grey;
+    border:none;
+}
+
+#questions .question{
+    font-weight: bold;
+}
+#questions .hint{
+    margin-top: 2%;
+    font-size: large;
+}
+#questions .response{
+    margin: 2% 0;
+}
+#questions .response .btn{
+    margin-left: 2%;
+    height: 6vh;
+    font-weight: bold;
+}
+#result{
+    font-size: 400%;
+    font-weight: bolder;
+}
+
+#result svg{
+    height: 50vh;
+    width: auto;
+}
+
+#result .accepted{
+    color: green;
+}
+
+#result .denied{
+    color: RED;
+}
+
+#result .disclaimers{
+    font-size: large;
+    font-weight: normal;
+}
